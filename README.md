@@ -1,4 +1,9 @@
 # SillyTavern - Extras
+
+# Recent news
+
+* We're migrating SillyTavern - Extras to Python 3.11, some of the modules new will be incompatible with old Python 3.10 installs. Stay tuned.
+
 ## What is this
 A set of APIs for various SillyTavern extensions.
 
@@ -72,6 +77,10 @@ conda create -n extras
 * Now activate the newly created env
 ```
 conda activate extras
+```
+* Install Python 3.10
+```
+conda install python=3.10
 ```
 * Install the required system packages
 ```

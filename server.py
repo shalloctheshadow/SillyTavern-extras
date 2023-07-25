@@ -82,7 +82,6 @@ parser.add_argument('--chroma-persist', help="ChromaDB persistence", default=Tru
 parser.add_argument(
     "--secure", action="store_true", help="Enforces the use of an API key"
 )
-
 sd_group = parser.add_mutually_exclusive_group()
 
 local_sd = sd_group.add_argument_group("sd-local")
